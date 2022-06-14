@@ -2,10 +2,12 @@
   background-color: #4C8BF5 !important;
   width: 20%;
   padding: 50px 20px;
+  height: 100vh;
+  overflow: auto;
 }
 
 .sidebar-active{
-  width: 4%;
+  width: 6%;
 }
 
 .sidebar-content{
@@ -80,4 +82,12 @@
   display: flex;
   justify-content: end;
   font-size: 28px;
+}
+
+.heading{
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #ffffff;
+  font-weight: bold;
 }

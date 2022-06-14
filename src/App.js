@@ -273,7 +273,7 @@ function App() {
                 <div className={` ${sidebar ? "icon" : "icon1"}`}>
                   <ele.icon />
                 </div>
-                {sidebar && <div>{ele.name}</div>}
+                {sidebar && <div style={{ width: "100%" }}>{ele.name}</div>}
 
                 {ele.children && sidebar && (
                   <div className="arrow">

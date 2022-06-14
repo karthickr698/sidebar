@@ -64,11 +64,6 @@ function App() {
     { name: "Dashboard", icon: AiFillHome, open: false, key: "sd" },
     {
       name: "Supervisor Queue",
-      children: [
-        { name: "Service", key: "suservice" },
-        { name: "Accessory", key: "suacc" },
-        { name: "Device", key: "sudiv" },
-      ],
       icon: Device,
       open: false,
       key: "sq",

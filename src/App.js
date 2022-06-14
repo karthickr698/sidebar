@@ -95,7 +95,12 @@ function App() {
 
   console.log(data);
 
-  const [active, setActive] = useState("Dashboard");
+  const [active, setActive] = useState({
+    name: "Dashboard",
+    key: "ad",
+    icon: AiFillHome,
+    open: false,
+  });
   return (
     <div className="container">
       <div className={`sidebar ${!sidebar ? "sidebar-active" : ""}`}>
